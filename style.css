@@ -1,0 +1,103 @@
+body {
+   font-family: Arial, sans-serif;
+   background-image: linear-gradient(#CFDFED, #FFFFFF);
+   color: #000661;
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+p {
+   white-space: pre-line;
+}
+
+h1 {
+   color: #061538;
+   font-size: 32px;
+   font-family: 'Handlee', cursive;
+   font-weight: 900;
+}
+
+h2 {
+   color: #6b0848;
+   font-size: 24px;
+   font-weight: 600;
+   font-family: 'Handlee', cursive;
+}
+
+a {
+   text-decoration: none;
+}
+
+.container {
+   width: 700px;
+   margin : 40px auto;
+}
+
+@media (max-width: 760px) {
+   .container {
+      width: 600px;
+   }
+}
+
+@media (max-width: 500px) {
+   .container {
+      width: 400px;
+   }
+}
+
+.card-white {
+   background-color: white;
+   padding: 20px 40px;
+   box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+   border-radius: 4px;
+   margin: 20px 0px;
+   text-align: center;
+}
+
+.img-circle {
+   border-radius: 50%;
+   width: 140px;
+   height: 140px;
+   box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+}
+
+.btn-blue {
+   background-color: #6b0848;
+   color : white;
+   padding: 15px 20px;
+   border-radius: 4px;
+}
+
+.btn-blue:hover {
+   background-color: #061538;
+   color: white;
+}
+
+.list-inline {
+   list-style: none;
+   padding-left: 0px;
+}
+
+.list-inline li {
+   display: inline;
+   padding: 10px;
+}
+
+.list-inline i {
+   font-size: 40px;
+   color: #000661;
+   padding: 0px 10px;
+}
+
+.list-inline i:hover {
+   color: #6b0848;
+}
+
+#introduction p {
+   margin-bottom: 40px;
+}
+
+#introduction {
+   padding-bottom: 40px;
+}
